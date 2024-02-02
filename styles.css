@@ -6,20 +6,21 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* fix brute-forcing width of container */
 .container{
     display: flex;
     border: black solid 2px;
-    width: 400px;
-    height: 400px;
+    width: 288px;
+    height: auto;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.child {
-    background: palevioletred;
-    font-weight: bold;
-    text-align: center;
-    border: 6px solid maroon;
-    width: 80px;
-    height: 80px;
-  }
+.contentGrid{
+    background-color:yellow;
+    margin:0px;
+    padding: 8px;
+    border: 1px solid black;
+}
