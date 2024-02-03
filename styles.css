@@ -11,8 +11,8 @@ body{
 .container{
     display: flex;
     border: black solid 2px;
-    width: 288px;
-    height: auto;
+    width: 512px;
+    height: 512px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -21,6 +21,6 @@ body{
 .contentGrid{
     background-color:yellow;
     margin:0px;
-    padding: 8px;
-    border: 1px solid black;
+    width:6.25%;
+    height:6.25%;
 }
