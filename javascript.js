@@ -1,4 +1,4 @@
-let amountDiv = 256;
+let amountDiv = 1024;
 const container = document.querySelector('.container');
 
 function createGrid(){
