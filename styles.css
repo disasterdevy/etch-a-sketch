@@ -18,9 +18,16 @@ body{
     flex-wrap: wrap;
 }
 
-.contentGrid{
-    background-color:yellow;
+.contentGrid, .contentHovered{
     margin:0px;
     width:6.25%;
     height:6.25%;
+}
+
+.contentGrid{
+    background-color:yellow;
+}
+
+.contentHovered{
+    background-color: black;
 }
