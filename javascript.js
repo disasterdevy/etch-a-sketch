@@ -15,3 +15,13 @@ function createAmountEntered(){
 }
 
 createAmountEntered();
+const contentGrid = document.querySelectorAll('.contentGrid');
+const listLength = contentGrid.length;
+
+
+// find out how this magic works! 
+Array.prototype.forEach.call(contentGrid, item => {
+    item.addEventListener('mouseenter', () =>{
+        item.classList.add('contentHovered');
+    })      
+})
