@@ -28,6 +28,10 @@ function createGrid(){
 }
 
 function createAmountEntered(){
+    if(amountDiv > 100){
+        amountDiv = 100;
+    }
+    amountDiv = amountDiv * amountDiv;
     for(i = amountDiv; i > 0; i--){
         createGrid();
     }
